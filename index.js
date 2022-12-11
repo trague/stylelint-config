@@ -9,6 +9,7 @@ module.exports = {
     "at-rule-no-unknown": [
       true,
       {
+        // windicss常用的rules
         ignoreAtRules: ["apply"],
       },
     ],

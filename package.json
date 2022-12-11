@@ -1,7 +1,7 @@
 {
   "name": "@trague/stylelint-config",
-  "version": "0.0.1",
-  "description": "A sharable stylelint config object.",
+  "version": "0.0.2",
+  "description": "A shareable stylelint configuration object for *.vue, *.scss, *.css.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,15 +19,14 @@
     "url": "https://github.com/trague/stylelint-config/issues"
   },
   "homepage": "https://github.com/trague/stylelint-config#readme",
-   "dependencies": {
+  "dependencies": {
+    "postcss": "^8.4.19",
     "postcss-html": "^1.5.0",
+    "stylelint": "^14.16.0",
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-recommended-scss": "^8.0.0",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-config-standard-scss": "^6.1.0"
-  },
-  "peerDependencies": {
-    "stylelint": ">=14"
   }
 }
